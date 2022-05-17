@@ -1,10 +1,10 @@
 package code;
 
-public class Cat {
+public class Mouse {
     private String name;
     private int age;
 
-    public Cat(String name) {
+    public Mouse(String name) {
         this.name = name;
     }
 
@@ -22,10 +22,5 @@ public class Cat {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    @Override
-    public String toString() {
-        return name;
     }
 }
